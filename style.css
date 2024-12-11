@@ -1,0 +1,453 @@
+.mainconteiner {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainconteiner nav {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.mainconteiner nav .logo {
+    width: 20%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+}
+
+.mainconteiner nav .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
+.mainconteiner nav .logo h1 {
+    font-size: 29px;
+    color: blue;
+}
+
+.mainconteiner nav .center {
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    padding: 0 2%;
+}
+
+.mainconteiner nav .center .button1_nav {
+    width: 19%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(226, 225, 247);
+    color: blue;
+    margin-right: 5%;
+    transition: .2s all ease;
+}
+.mainconteiner nav .center .button1_nav:hover{
+    background-color:rgb(211, 194, 253) ;
+}
+.mainconteiner nav .center form {
+    display: flex;
+    width: 80%;
+}
+
+.mainconteiner nav .center form input {
+    width: 85%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5%;
+    border: 1px solid grey;
+}
+
+.mainconteiner nav .center form .search_nav {
+    width: 15%;
+    height: 96%;
+    border: 1px solid grey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: lightgray;
+}
+.mainconteiner nav .right{
+    width: 30%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+}
+.mainconteiner nav .right .item_nav{
+    width: 25%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    margin: 0 6%;
+    font-size: 17px;
+}
+
+.mainconteiner .nav2 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    transition: .3s all ease;
+    color: gray;
+    margin-bottom: 2%;
+} 
+.mainconteiner .nav2  li:hover{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+swiper-container {
+  width: 100%;
+  height: 650px;
+  margin-bottom: 2%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  background-size: cover;
+}
+
+swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mashhur{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.mainBox{
+    width: 278.1px;
+    height: 500px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 1%;
+    transition: .3s all ease ;
+    
+}
+.mainBox:hover{
+    box-shadow: 0px 3px rgb(135, 135, 135) ;
+    height: 501px;
+    cursor: pointer;
+}
+.imgBox{
+    width: 100%;
+    height: 63%;
+    border: 1px solid transparent;
+    display: flex;
+    /* flex-direction: column; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    justify-content: end;
+    padding-right: 4%;
+    padding-top: 3%;
+    border-radius: 18px;
+    transition: .2s all linear;
+    position: relative;
+
+
+}
+.imgBox:hover{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.imgBox .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    transition: .2s all linear;
+}
+.imgBox .img:hover{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.mainBox  .bx-heart{
+    position: absolute;
+    z-index: 10000;
+}
+.mainBox  .bxs-heart{
+    position: absolute;
+    z-index: 10000;
+}
+.infoBox{
+    width: 100%;
+    height: 50%;
+    font-size: 8px;
+    padding: 2% 5%;
+}
+.infoBox .info1Item{
+    width: 100%;
+    height: 43%;
+    border: 1px solid transparent;
+}
+.title{
+    width: 100%;
+    height: 35px;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.ratingItem{
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    height: 20px;
+    font-size: 13px;
+}
+.bx-star{
+    color: rgb(255, 200, 0);
+}
+.monthPrice{
+    width: 38%;
+    height: 18%;
+    border-radius: 5px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.info2Item{
+    width: 100%;
+    height: 23%;
+    border: 1px solid transparent;
+    font-size: 13px;
+    display: flex;
+}
+.miniItem1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+.realPrice{
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.906);
+}
+.miniItem2{
+    display: flex;
+    padding-left: 35%;
+    align-items: center;
+    font-size: 35px;
+}
+.buttonBox{
+    width: 100%;
+    height: 65px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 55%;
+    height: 100%;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    border: 1px solid transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.picture1{
+    width: 100%;
+    height: 600px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    /* margin-bottom: 3%; */
+}
+.elektronika{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+.poyabzal{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hide{
+    display: none;
+}
+
+.bxs-heart{
+    color: rgb(186, 142, 228);
+    transition: .1s all ease;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    border: 1px solid transparent;
+    margin-top: 3%;
+}
+.footer h1{
+    font-size: 20px;
+}
+.footer p{
+    font-size: 15px;
+    color: gray;
+}
+.footer i{
+    font-size: 30px;
+}
+.footer .top{
+    width: 100%;
+    height: 70%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .top .box{
+    width: 25%;
+    height: 100%;
+    padding: 0 2%;
+}
+.footer .top .box .download{
+    display: flex;
+    gap: 5%;
+}
+.footer .top .box .download .item{
+    display: flex;
+    align-items: center;
+}
+
+.bxl-play-store{
+    color: blue;
+}
+.bxl-instagram{
+    color: rgb(100, 18, 177);
+}
+.bxl-telegram{
+ color: rgb(8, 8, 120);
+}
+.bxl-facebook-square{
+    color: rgb(75, 75, 205);
+}
+.bxl-youtube{
+    color: red;
+}
+
+.footer .under {
+    width: 100%;
+    height: 30%;
+    border: 1px solid transparent;
+    border-top: 1px solid gray;
+    /* padding: 0 3%; */
+    display: flex;
+    justify-content: space-around;
+}
+.item3{
+    display: flex;
+    gap: 3%;
+    width: 50%;
+    
+}
+
+
+.bigRB{
+    width: 37.5%;
+    height: 500px;
+    border: 1px solid transparent blue;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    margin-left: 30%;
+    margin-top: 8%;
+    display: none;
+    background-color: white;
+
+}
+
+.bigRB .resultBox{
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: scroll;
+    align-items: center;
+}
+.resultBox .miniRB {
+    width: 90%;
+    height: 55%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    margin: 1% 0;
+}
+.resultBox .miniRB .imageResult{
+    width: 50%;
+    height: 100%;
+}
+.resultBox .miniRB .resultItem2{
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2%;
+}
+.resultBox .miniRB .resultItem2 .titleResult{
+    font-size: 25px;
+}
+
+.resultBox .miniRB .resultItem2 .realPR{
+    text-decoration: line-through;
+    color: grey;
+}
+
+
+
+
+

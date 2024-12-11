@@ -1,0 +1,284 @@
+@media screen and (max-width:1230px) {
+    .bag {
+        flex-wrap: wrap;
+    }
+    .bag .box1{
+        width: 100%;
+    }
+    .bag .box2{
+        width: 100%;
+        padding: 2% 0;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+    .bag .box1 .mainPart .two .counter{
+        margin-left: 30%;
+    }
+    .bag .box2 .firstBox .products .oneone .many{
+        width: 19%;
+        gap: 5%;
+    }
+    .bag .box2 .firstBox .products{
+        font-size: 18px;
+    }
+    .footer h1 {
+        font-size: 18px;
+    }
+    
+    .footer p {
+        font-size: 14px;
+        color: gray;
+    }
+    
+    .footer i {
+        font-size: 30px;
+    }
+    .mainconteiner nav .logo h1{
+        font-size: 25px;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 16px;
+        
+    }
+}
+@media screen and (max-width:1085px){
+    .mainconteiner nav .logo h1{
+        font-size: 23px;
+    }
+    .footer h1 {
+        font-size: 17px;
+    }
+    
+    .footer p {
+        font-size: 13px;
+        color: gray;
+    }
+    
+    .footer i {
+        font-size: 27px;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 15px;
+
+    }
+}
+@media screen and (max-width:1025px){
+    .mainconteiner nav .logo h1{
+        font-size: 20px;
+    }
+    .footer h1 {
+        font-size: 17px;
+    }
+    
+    .footer p {
+        font-size: 13px;
+        color: gray;
+    }
+    
+    .footer i {
+        font-size: 27px;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 13px;
+        margin: 0 5%;
+    }
+}
+@media screen and (max-width:940px){
+    .mainconteiner nav .logo h1{
+        font-size: 18px;
+    }
+    .footer h1 {
+        font-size: 16px;
+    }
+    
+    .footer p {
+        font-size: 12px;
+        color: gray;
+    }
+    
+    .footer i {
+        font-size: 25px;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 12px;
+        margin: 0 5%;
+    }
+    .bag .box2 .firstBox .products .oneone .many{
+        width: 21%;
+        gap: 6%;
+    }
+}@media screen and (max-width:865px){
+    .mainconteiner nav .logo h1{
+        font-size: 17px;
+    }
+    .footer h1 {
+        font-size: 15px;
+    }
+    
+    .footer p {
+        font-size: 11px;
+        color: gray;
+    }
+    
+    .footer i {
+        font-size: 24px;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 11px;
+        margin: 0 6%;
+    }
+    .bag .box1 .naviBox .deliver .dlvrBox{
+        font-size: 16px;
+    }
+    .bag .box2 .firstBox .products .oneone .many{
+        width: 23%;
+        gap: 5%;
+    }
+    .bag .box1 .mainPart .three .delete p {
+        display: none;
+    }
+    .bag .box1 .mainPart .three .delete i{
+        font-size: 25px;
+    }
+    .bag .box1 .mainPart .three .price{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:760px){
+    .mainconteiner nav .logo h1{
+        font-size: 15px;
+    }
+    .footer h1 {
+        font-size: 15px;
+    }
+    
+    .footer p {
+        font-size: 11px;
+        color: gray;
+    }
+    
+    .footer i {
+        font-size: 24px;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 10px;
+        margin: 0 6%;
+    }
+    .bag .box1 .naviBox .deliver .dlvrBox{
+        font-size: 15px;
+    }
+    .bag .box2 .firstBox .products .oneone .many{
+        width: 25%;
+        gap: 5%;
+    }
+}
+@media screen and (max-width:760px){
+    .mainconteiner nav {
+        flex-wrap: wrap;
+    }
+
+    .mainconteiner nav .logo {
+        width: 45%;
+    }
+
+    .mainconteiner nav .logo h1 {
+        font-size: 35px;
+    }
+
+    .mainconteiner nav .center {
+        width: 50%;
+        gap: 2%;
+    }
+
+    .mainconteiner nav .center .button1_nav {
+        width: 20%;
+    }
+
+    .mainconteiner nav .center form {
+        width: 90%;
+    }
+
+    .mainconteiner nav .right {
+        width: 100%;
+    }
+
+    .mainconteiner nav .right .item_nav {
+        font-size: 20px;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+    .bag .box1 .mainPart .where {
+        font-size: 15px;
+    }
+    .bag .box1 .mainPart .three .price{
+        font-size: 20px;
+    }
+    .bag .box1 .mainPart .three .price .salePrice {
+        font-size: 22px;
+    }
+    .bag .box2 .firstBox .products .oneone .many{
+        width: 28%;
+        gap: 5%;
+    }
+    .bag .box1 .mainPart .two h2 {
+        font-size: 18px;
+    }
+
+
+}
+@media screen and (max-width:700px){
+    .mainconteiner nav {
+        flex-wrap: wrap;
+    }
+
+    .mainconteiner nav .logo {
+        width: 45%;
+    }
+
+    .mainconteiner nav .logo h1 {
+        font-size: 33px;
+    }
+
+    .mainconteiner nav .center {
+        width: 50%;
+        gap: 2%;
+    }
+
+    .mainconteiner nav .center .button1_nav {
+        width: 20%;
+    }
+
+    .mainconteiner nav .center form {
+        width: 90%;
+    }
+
+    .mainconteiner nav .right {
+        width: 100%;
+    }
+
+    .mainconteiner nav .right .item_nav {
+        font-size: 20px;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+    .bag .box1 .mainPart .where {
+        font-size: 15px;
+    }
+    .bag .box1 .mainPart .three .price{
+        font-size: 19px;
+    }
+    .bag .box1 .mainPart .three .price .salePrice {
+        font-size: 21px;
+    }
+    .bag .box2 .firstBox .products .oneone .many{
+        width: 32%;
+        gap: 5%;
+    }
+    .bag .box1 .mainPart .two h2 {
+        font-size: 18px;
+    }
+    .bag .box1 .naviBox .deliver .dlvrBox{
+        font-size: 10px;
+    }
+
+}

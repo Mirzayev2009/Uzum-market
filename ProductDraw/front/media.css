@@ -1,0 +1,416 @@
+@media screen and (max-width : 1500px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 18px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (max-width : 1360px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 16px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 16px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 25px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 25px;
+    }
+
+
+}
+
+@media screen and (max-width : 1250px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 15px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 15px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 25px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 25px;
+    }
+
+    .productConteiner nav .right .item_nav {
+        margin: 0 7%;
+        font-size: 15px;
+
+    }
+
+    .footer i {
+        font-size: 25px;
+    }
+
+    .footer h1 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 14px;
+        color: gray;
+    }
+
+
+}
+
+@media screen and (max-width : 1180px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 14px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 14px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 25px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 25px;
+    }
+
+    .productConteiner nav .right .item_nav {
+        margin: 0 7%;
+        font-size: 15px;
+
+    }
+
+
+}
+
+@media screen and (max-width : 1100px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 13px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 13px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 22px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 22px;
+    }
+
+    .productConteiner nav .right .item_nav {
+        margin: 0 7%;
+        font-size: 14px;
+
+    }
+
+
+}
+
+@media screen and (max-width : 1020px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 12px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 12px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner nav .right .item_nav {
+        margin: 0 7%;
+        font-size: 13px;
+
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .count .howmanyLeft {
+        font-size: 17px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .count .howmanybought {
+        font-size: 17px;
+    }
+
+    .productConteiner .productbox .rightbox .secondbox {
+        font-size: 13px;
+    }
+
+    .footer i {
+        font-size: 24px;
+    }
+
+    .footer h1 {
+        font-size: 17px;
+    }
+
+    .footer p {
+        font-size: 13px;
+        color: gray;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .productConteiner nav {
+        flex-wrap: wrap;
+    }
+
+    .productConteiner nav .logo {
+        width: 45%;
+    }
+
+    .productConteiner nav .logo h1 {
+        font-size: 40px;
+    }
+
+    .productConteiner nav .center {
+        width: 50%;
+        gap: 2%;
+    }
+
+    .productConteiner nav .center .button1_nav {
+        width: 20%;
+    }
+
+    .productConteiner nav .center form {
+        width: 90%;
+    }
+
+    .productConteiner nav .right {
+        width: 100%;
+    }
+
+    .productConteiner nav .right .item_nav {
+        font-size: 20px;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+
+    .productConteiner .productbox {
+        flex-wrap: wrap;
+    }
+
+    .productConteiner .productbox .leftbox {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .productConteiner .productbox .leftbox .description {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: -10%;
+    }
+
+    .productConteiner .productbox .rightbox {
+        width: 100%;
+        display: flex;
+        gap: 5%;
+
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 17px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 17px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .rightbox .secondbox {
+        font-size: 13px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox {
+        margin-top: 7%;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 16px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 16px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .rightbox .secondbox {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 15px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 15px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .rightbox .secondbox {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 14px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 14px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .rightbox .secondbox {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 13px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 13px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .rightbox .secondbox {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .productConteiner .productbox .rightbox {
+        flex-wrap: wrap;
+        margin-bottom: 30%;
+    }
+    .footer{
+        margin-top: 10%;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .price {
+        font-size: 20px;
+    }
+
+    .productConteiner .productbox .rightbox .firstbox .buttons .monthprice {
+        font-size: 20px;
+    }
+
+    .productConteiner .productbox .leftbox .description h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .leftbox .info h1 {
+        font-size: 21px;
+    }
+
+    .productConteiner .productbox .rightbox .secondbox {
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .productConteiner nav .logo h1 {
+        font-size: 35px;
+    }
+
+    .footer i {
+        font-size: 15px;
+    }
+
+    .footer h1 {
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 13px;
+        color: gray;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .productConteiner nav .logo h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .productConteiner nav .logo h1 {
+        font-size: 25px;
+    }
+}

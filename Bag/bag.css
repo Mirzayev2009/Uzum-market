@@ -1,0 +1,509 @@
+.mainconteiner {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainconteiner nav {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.mainconteiner nav .logo {
+    width: 20%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+}
+
+.mainconteiner nav .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
+.mainconteiner nav .logo h1 {
+    font-size: 29px;
+    color: blue;
+}
+
+.mainconteiner nav .center {
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    padding: 0 2%;
+}
+
+.mainconteiner nav .center .button1_nav {
+    width: 19%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(226, 225, 247);
+    color: blue;
+    margin-right: 5%;
+    transition: .2s all ease;
+}
+
+.mainconteiner nav .center .button1_nav:hover {
+    background-color: rgb(211, 194, 253);
+}
+
+.mainconteiner nav .center form {
+    display: flex;
+    width: 80%;
+}
+
+.mainconteiner nav .center form input {
+    width: 85%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5%;
+    border: 1px solid grey;
+}
+
+.mainconteiner nav .center form .search_nav {
+    width: 15%;
+    height: 96%;
+    border: 1px solid grey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: lightgray;
+}
+
+.mainconteiner nav .right {
+    width: 30%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+}
+
+.mainconteiner nav .right .item_nav {
+    width: 25%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    margin: 0 6%;
+    font-size: 17px;
+}
+
+.mainconteiner .nav2 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    transition: .3s all ease;
+    color: gray;
+    margin-bottom: 2%;
+}
+
+.mainconteiner .nav2 li:hover {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.bag {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    gap: 2%;
+}
+
+.howmany {
+    width: 100%;
+    height: 90px;
+    border: 1px solid transparent;
+    display: flex;
+    gap: 1%;
+}
+
+.howmany .grey {
+    color: gray;
+}
+
+.bag .box1 {
+    width: 65%;
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bag .box1 .naviBox {
+    width: 100%;
+    height: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.bag .box1 .naviBox .choice {
+    height: 100%;
+    width: 45%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    padding-left: 1%;
+}
+
+.bag .box1 .naviBox .choice .checkbox {
+    font-size: 43px;
+    color: blue;
+}
+
+.bag .box1 .naviBox .deliver {
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    font-size: 17px;
+    align-items: baseline;
+    justify-content: end;
+    gap: 1%;
+}
+
+.bag .box1 .naviBox .deliver .dlvrBox {
+    width: 20%;
+    height: 25%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+.bag .box1 .mainPart {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-top: 1px solid grey;
+    padding: 2% 0;
+}
+
+.bag .box1 .mainPart .where {
+    width: 100%;
+    height: 10%;
+    border: 1px solid transparent;
+    font-size: 18px;
+    color: gray;
+
+}
+
+.bag .box1 .mainPart .where .p {
+    color: black;
+    margin-bottom: 5%;
+}
+
+.bag .box1 .mainPart .parts {
+    width: 100%;
+    height: 70%;
+    border: 1px solid transparent;
+    display: flex;
+}
+
+.bag .box1 .mainPart .one {
+    width: 20%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.bag .box1 .mainPart .one img{
+    width: 70%;
+    height: 100%;
+}
+
+.bag .box1 .mainPart .two {
+    width: 60%;
+    height: 100%;
+    border: 1px solid transparent;
+    padding: 0 1%;
+}
+
+.bag .box1 .mainPart .two h2 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bag .box1 .mainPart .two .counter {
+    width: 25%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 18%;
+    cursor: pointer;
+}
+.bag .box1 .mainPart .two .counter .minus{
+    color: gray;
+    font-size: 33px;
+}
+.bag .box1 .mainPart .two .counter .plus{
+    color: gray;
+    font-size: 33px;
+}
+
+.bag .box1 .mainPart .two .counter .plus:hover{
+    color: black;
+    font-size: 33px;
+}
+.bag .box1 .mainPart .two .counter .minus:hover{
+    color: black;
+    font-size: 33px;
+}
+
+.bag .box1 .mainPart .three {
+    width: 20%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.bag .box1 .mainPart .three .delete {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    width: 70%;
+    justify-content: center;
+    font-size: 20px;
+    color: gray;
+}
+
+.bag .box1 .mainPart .three .delete:hover {
+    color: black;
+}
+
+.bag .box1 .mainPart .three .price {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    margin-right: 50%;
+}
+
+.bag .box1 .mainPart .three .price .salePrice {
+    color: black;
+    font-size: 26px;
+}
+
+.bag .box1 .mainPart .three .price .realPrice {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.bag .box2 {
+    width: 32%;
+    height: 100%;
+    border: 1px solid gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.bag .box2 .firstBox {
+    width: 100%;
+    height: 400px;
+    border: 1px solid transparent;
+    margin: 0 2%;
+    font-size: 15px;
+}
+
+.bag .box2 .firstBox .products {
+    width: 95%;
+    height: 10%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bag .box2 .firstBox .products .oneone {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+.bag .box2 .firstBox .products .oneone .many{
+    width: 30%;
+    gap: 2%;
+}
+.bag .box2 .firstBox .deleviry{
+    width: 95%;
+    height: 10%;
+    border: 1px solid rgb(143, 56, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    color: rgb(143, 56, 231);
+}
+.bag .box2 .firstBox .sale{
+    width: 95%;
+    height: 25%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.bag .box2 .firstBox .sale .item1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+
+.bag .box2 .firstBox .sale .item2 .profit {
+    width: 100%;
+    height: 10%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bag .box2 .firstBox .sale .item2 .priceSale{
+    font-size: 20px;
+    margin-top: 15%;
+  
+}
+.bag .box2 .firstBox .sale .item2 .profit {
+    gap: 2px;
+    color: green;
+}
+.bag .box2 .firstBox .rasmiylashtirish{
+    width: 95%;
+    height: 20%;
+    border: 1px solid transparent;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bag .box2 .firstBox .rasmiylashtirish .buttonSign{
+    width: 95%;
+    height: 80%;
+    border: 1px solid transparent;
+    background-color:lightgray;
+    border-radius: 10px;
+    font-size: 25px;
+    color: gray;
+    transition: .2s all ease;
+}
+.bag .box2 .firstBox .rasmiylashtirish .buttonSign:hover{
+    background-color: rgb(133, 117, 235);
+}
+.footer {
+    width: 100%;
+    height: 300px;
+    border: 1px solid transparent;
+    margin-top: 3%;
+}
+
+.footer h1 {
+    font-size: 20px;
+}
+
+.footer p {
+    font-size: 15px;
+    color: gray;
+}
+
+.footer i {
+    font-size: 30px;
+}
+
+.footer .top {
+    width: 100%;
+    height: 70%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .top .box {
+    width: 25%;
+    height: 100%;
+    padding: 0 2%;
+}
+
+.footer .top .box .download {
+    display: flex;
+    gap: 5%;
+}
+
+.footer .top .box .download .item {
+    display: flex;
+    align-items: center;
+}
+
+.bxl-play-store {
+    color: blue;
+}
+
+.bxl-instagram {
+    color: rgb(100, 18, 177);
+}
+
+.bxl-telegram {
+    color: rgb(8, 8, 120);
+}
+
+.bxl-facebook-square {
+    color: rgb(75, 75, 205);
+}
+
+.bxl-youtube {
+    color: red;
+}
+
+.footer .under {
+    width: 100%;
+    height: 30%;
+    border: 1px solid transparent;
+    border-top: 1px solid gray;
+    /* padding: 0 3%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.item3 {
+    display: flex;
+    gap: 3%;
+    width: 50%;
+
+}

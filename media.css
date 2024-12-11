@@ -1,0 +1,504 @@
+@media screen and (max-width: 1570px){
+    
+.mainBox{
+    width: 270px;
+    height: 490px;
+    font-size: 2px;
+    margin: 2% 1.2%;
+}
+    
+}
+@media screen and (max-width: 1558px){
+    
+    .mainBox{
+        width: 260px;
+        height: 480px;
+        font-size: 3px;
+        margin: 2% 1.5%;
+    }
+}
+@media screen and (max-width: 1553px){
+    
+    .mainBox{
+        width: 250px;
+        height: 470px;
+        font-size: 1px;
+        margin: 2% 1.6%;   
+    }
+    .monthPrice{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1513px){
+    
+    .mainBox{
+        width: 240px;
+        height: 460px;
+        font-size: 3px;
+        margin: 2% 1.7%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1470px){
+    
+    .mainBox{
+        width: 230px;
+        height: 450px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1427px){
+    
+    .mainBox{
+        width: 220px;
+        height: 450px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .bigRB{
+        margin-top: 9%;
+    }
+}
+@media screen and (max-width: 1380px){
+    
+    .mainBox{
+        width: 268px;
+        height: 480px;
+        font-size: 3px;
+        margin: 2% 2%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1285px){
+    
+    .mainBox{
+        width: 255px;
+        height: 450px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .footer i{
+        font-size: 25px;
+    }
+    .footer h1{
+        font-size: 17px;
+    }
+    .footer p{
+        font-size: 13px;
+    }
+    .bigRB{
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 1215px){
+    
+    .mainBox{
+        width: 245px;
+        height: 445px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .bigRB{
+        margin-top: 12%;
+    }
+}
+@media screen and (max-width: 1170px){
+    
+    .mainBox{
+        width: 235px;
+        height: 435px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 14px;
+        margin: 0 5%;
+    }
+    .bigRB{
+        margin-top: 13%;
+    }
+
+}
+@media screen and (max-width: 1123px){
+    
+    .mainBox{
+        width: 230px;
+        height: 430px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 14px;
+        margin: 0 5%;
+    }
+    .bigRB{
+        margin-top: 14%;
+    }
+}
+@media screen and (max-width: 1100px){
+    
+    .mainBox{
+        width: 225px;
+        height: 425px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .bigRB{
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width: 1075px){
+    
+    .mainBox{
+        width: 220px;
+        height: 420px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .bigRB{
+        margin-top: 16%;
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1051px){
+    
+    .mainBox{
+        width: 215px;
+        height: 415px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1028px){
+    
+    .mainBox{
+        width: 210px;
+        height: 410px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .bigRB{
+        margin-top: 17%;
+    }
+}
+@media screen and (max-width: 1005px){
+    
+    .mainBox{
+        width: 278px;
+        height: 490px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 960px){
+    
+    .mainBox{
+        width: 270px;
+        height: 485px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 12px;
+        margin: 0 5%;
+    }
+}
+@media screen and (max-width: 931px){
+    
+    .mainBox{
+        width: 264px;
+        height: 480px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 12px;
+        margin: 0 5%;
+    }
+}
+@media screen and (max-width: 910px){
+    
+    .mainBox{
+        width: 258px;
+        height: 475px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 12px;
+        margin: 0 5%;
+    }
+}
+@media screen and (max-width: 890px){
+    
+    .mainBox{
+        width: 248px;
+        height: 465px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 12px;
+        margin: 0 5%;
+    }
+
+}
+@media screen and (max-width: 880px){
+    
+    .mainBox{
+        width: 238px;
+        height: 455px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 11px;
+        margin: 0 6%;
+    }
+    .bigRB{
+        margin-top: 18%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 821px){
+    
+    .mainBox{
+        width: 228px;
+        height: 445px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 11px;
+        margin: 0 6%;
+    }
+}
+@media screen and (max-width: 790px){
+    
+    .mainBox{
+        width: 218px;
+        height: 435px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 11px;
+        margin: 0 6%;
+    }
+    .bigRB{
+        margin-top: 19%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 755px){
+    
+    .mainBox{
+        width: 208px;
+        height: 425px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 10px;
+        margin: 0 6%;
+    }
+}
+@media screen and (max-width: 721px){
+    
+    .mainBox{
+        width: 198px;
+        height: 425px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 60%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 10px;
+        margin: 0 7%;
+    }
+    .bigRB{
+        margin-top: 21%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 690px){
+    
+    .mainBox{
+        width: 188px;
+        height: 415px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 60%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 10px;
+        margin: 0 7%;
+    }
+    .mainconteiner nav .logo h1{
+        font-size: 20px;
+    }
+    .bigRB{
+        margin-top: 22%;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 654px){
+    
+    .mainBox{
+        width: 280px;
+        height: 490px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 9px;
+        margin: 0 7%;
+    }
+}
+@media screen and (max-width: 625px){
+    
+    .mainBox{
+        width: 270px;
+        height: 480px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 8px;
+        margin: 0 7%;
+    }
+    .bigRB{
+        margin-top: 23%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 601px){
+    
+    .mainBox{
+        width: 260px;
+        height: 470px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 10px;
+        margin: 0 7%;
+    }
+    .footer i{
+        font-size: 22px;
+    }
+    .footer h1{
+        font-size: 15px;
+    }
+    .footer p{
+        font-size: 11px;
+    }
+    .bigRB{
+        margin-top: 25%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 580px){
+    
+    .mainBox{
+        width: 250px;
+        height: 460px;
+        font-size: 3px;
+        margin: 2% 1.8%;
+    }
+    .monthPrice{
+        width: 50%;
+    }
+    .mainconteiner nav .right .item_nav{
+        font-size: 10px;
+        margin: 0 7%;
+    }
+    .footer i{
+        font-size: 22px;
+    }
+    .footer h1{
+        font-size: 15px;
+    }
+    .footer p{
+        font-size: 11px;
+    }
+    .bigRB{
+        margin-top: 27%;
+        width: 66%;
+    }
+}

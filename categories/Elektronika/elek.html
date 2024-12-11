@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektronika</title>
+    <link rel="stylesheet" href="./elek.css">
+    <link rel="stylesheet" href="./mediaElek.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="mainconteiner">
+
+        <nav>
+          <div class="logo">
+            <img src="data:image/png;base64,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" alt="" >
+            <h1 class="buttonLogo">uzum market</h1>
+
+          </div>
+          <div class="center">
+            <button class="button1_nav">Katalog</button>
+            <form action="">
+              <input type="search" placeholder="Mahsulotlar va turkumlar izlash" class="searchBar">
+              <div class="search_nav"><i class='bx bx-search'></i></div>
+            </form>
+          </div>
+          <div class="right">
+            <div class="item_nav">
+              <i class='bx bx-user'></i>
+              <h3>Kirish</h3>
+            </div>
+            <div class="item_nav Like">
+              <i class='bx bx-heart'></i>
+              <h3>Saralangan</h3>
+            </div>
+            <div class="item_nav Bag">
+              <i class='bx bx-shopping-bag'></i>
+              <h3>Savat</h3>
+            </div>
+          </div>
+        </nav>
+        <div class="nav2">
+        
+
+          <li class="Elektronika category">Elektronika</li>
+          <li class="Texnika category">Maishiy texnika</li>
+          <li class="Kiyim category">Kiyim</li>
+          <li class="Poyabzal category">Poyabzallar</li>
+          <li class="Aksessuarlar category">Aksessuarlar</li>
+          <li class="Parvarish category">Go'zallik va parvarish</li>
+        </div>
+    </div> 
+    <div class="bigRB"></div>
+
+    <script type="module" src="./elek.js"></script>
+    <div class="footer">
+      <div class="top">
+        <div class="box">
+          <h1>Biz haqimizda</h1>
+          <p>Topshirish punktlari</p>
+          <p>Vakansiyalar</p>
+        </div>
+        <div class="box">
+          <h1>Foydalanuvchilarga</h1>
+          <p>Biz bilan bog'lanish</p>
+          <p>Savol-Javob</p>
+        </div>
+        <div class="box">
+          <h1>Tadbirkorlarga</h1>
+          <p>Uzumda soting</p>
+          <p>Sotuvchi kabinitiga kirish</p>
+          <p>Topshirish punktini ochish</p>
+        </div>
+        <div class="box">
+          <h1>Ilovani yuklab olish</h1>
+          <div class="download">
+            <div class="item">
+              <i class='bx bxl-apple'></i>
+              <h1>AppStore</h1>
+            </div>
+            <div class="item">
+              <i class='bx bxl-play-store'></i>
+              <h1>Google Play</h1>
+            </div>
+          </div>
+          <div class="media">
+            <h1>Uzum ijtimoiy tarmoqlarda</h1>
+            <div class="platform">
+              <i class='bx bxl-instagram'></i>
+              <i class='bx bxl-telegram'></i>
+              <i class='bx bxl-facebook-square'></i>
+              <i class='bx bxl-youtube'></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="under">
+        <div class="item3">
+          <h1>Maxfiylik kelishuvi</h1>
+          <h1>Foydalanuvchi kelishuvi</h1>
+        </div>
+        <p>«2024© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</p>
+      </div>
+    </div>
+
+</body>
+</html>
